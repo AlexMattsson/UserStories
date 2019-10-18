@@ -46,7 +46,7 @@ class StoriesController extends Controller
 
         Userstories::create($validated);
         
-        return redirect('/stories');
+        return redirect('stories');
     }
 
     /**

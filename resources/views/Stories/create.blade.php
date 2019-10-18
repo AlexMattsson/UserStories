@@ -4,7 +4,7 @@
 
 @section('content')
     
-<form method="POST" action="/stories">
+<form method="POST" action="stories">
     
     {{ csrf_field() }}
     
