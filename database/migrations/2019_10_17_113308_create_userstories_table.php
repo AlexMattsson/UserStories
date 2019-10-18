@@ -15,7 +15,7 @@ class CreateUserstoriesTable extends Migration
     {
         Schema::create('userstories', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigInteger('userid');
+            $table->bigInteger('userid').nullable();
             $table->string('role');
             $table->string('action');
             $table->string('location');
