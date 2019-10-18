@@ -18,6 +18,6 @@
         @endforeach
     </div>
     
-    <a href="./stories/create">Create a new story</a>
+    <a href="/stories/create">Create a new story</a>
         
 @endsection
