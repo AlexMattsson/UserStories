@@ -11,7 +11,7 @@
     <div>
         
         <p>Som en </p>
-        <input type="text" name="role" placeholder="Elev" value="{{ old('role') }}">
+        <input type="text" name="role" placeholder="Elev" value="{{ old('role') }}" autofocus>
         <p> vill jag </p>
         <input type="text" name="action" placeholder="lära mig" value="{{ old('action') }}">
         <p> i </p>
