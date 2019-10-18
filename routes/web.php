@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::resource('./stories', 'StoriesController');
+Route::resource('stories', 'StoriesController');
  
